@@ -1,30 +1,31 @@
 {
-    "name": "laravelacademy/urlscanner",
-    "description": "this is scan urls from a csv file",
-    "keywords":["url","scanner","csv"],
-    "type": "composer-plugin",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "zyl",
-            "email": "1577121881@qq.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-        "php":">=5.4.0",
-        "guzzlehttp/guzzle": "~5.0"
-    },
-    "require-dev": {
-      "phpunit/phpunit": "~4.3"
-    },
-    "suggest": {
-      "league/csv": "~6.0"
-    },
-    "autoload": {
-      "psr-4": {
-        "LaravelAcademy\\UrlScanner\\": "src/"
-      }
+  "name": "laravelacademy/urlscanner",
+  "description": "this is scan urls from a csv file",
+  "keywords": [
+    "url",
+    "scanner",
+    "csv"
+  ],
+  "type": "composer-plugin",
+  "authors": [
+    {
+      "name": "zyl",
+      "email": "1577121881@qq.com"
     }
-
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "guzzlehttp/guzzle": "^6.2",
+    "league/csv": "^8.1"
+  },
+  "minimum-stability": "dev",
+  "require-dev": {
+    "phpunit/phpunit": "~4.3"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "LaravelAcademy\\UrlScanner\\": "src/"
+    }
+  }
 }
